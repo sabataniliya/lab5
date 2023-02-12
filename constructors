@@ -1,14 +1,15 @@
-public class main {
+public class employee {
     int employeeid;
     String employeeName;
 
-    public main(int id, String name) {
+    public employee(int id, String name) {
         employeeid= id;
         employeeName = name;
     }
 
     public static void main(String[] args) {
-        main myinfo = new main(5694, "liya");
+        employee myinfo = new employee(id:5694, name:"liya");
         System.out.println(myinfo.employeeid + " " + myinfo.employeeName);
     }
 }
+
