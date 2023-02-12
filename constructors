@@ -1,0 +1,14 @@
+public class main {
+    int employeeid;
+    String employeeName;
+
+    public main(int id, String name) {
+        employeeid= id;
+        employeeName = name;
+    }
+
+    public static void main(String[] args) {
+        main myinfo = new main(5694, "liya");
+        System.out.println(myinfo.employeeid + " " + myinfo.employeeName);
+    }
+}
